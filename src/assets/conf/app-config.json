@@ -1,0 +1,14 @@
+{
+  "app": {
+    "production": false,
+    "port": 3000
+  },
+  "kafka": {
+    "consumerTopic": "IMO-MESSAGING",
+    "producerTopic": "IMO-MESSAGING",
+    "clientId": "imo-bff",
+    "brokers": ["localhost:9092"],
+    "groupId": "imo-bff",
+    "ssl": false
+  }
+}
